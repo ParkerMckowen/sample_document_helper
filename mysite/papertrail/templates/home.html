@@ -1,0 +1,64 @@
+{% extends "main.html" %}
+
+{% block title %}
+<title>Papertrail - Document Analysis</title>
+{% endblock %}
+
+{% load static %}
+{% block content %}
+<!-- Banner Section -->
+	<div class="container my-3">
+		<div class="row">
+			<div class="col">
+				<img src="{% static 'papertrail/library.jpg' %}" class="img-fluid" >
+			</div>
+
+			<div class="col">
+				<h3>
+					Context Based <small class="text-muted">Document Searching</small>
+				</h3>
+				<p>
+					Some text here
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+
+<!-- Card Section -->
+	<div class="container-fluid my-3">
+		<div class="row">
+			<div class="col">
+				<div class="card">
+					<img src="{% static 'papertrail/library.jpg' %}" class="img-fluid" alt="to be added">
+					<div class="card-body">
+						<h1 class="card-title">Upload Your Documents</h1>
+						<p class="card-text"> Text goes here</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card">
+					<img src="{% static 'papertrail/library.jpg' %}" class="img-fluid" alt="to be added">
+					<div class="card-body">
+						<h1 class="card-title">View Your Library</h1>
+						<p class="card-text"> Text goes here</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card">
+					<img src="{% static 'papertrail/library.jpg' %}" class="img-fluid" alt="to be added">
+					<div class="card-body">
+						<h1 class="card-title">Analyze Your Documents</h1>
+						<p class="card-text"> Text goes here</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- End Card Section -->
+{% endblock %}
